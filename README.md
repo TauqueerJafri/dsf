@@ -1,25 +1,11 @@
-# Data Science Festival X ASOS
-## Data Science Festival Workshop 7 November 2020 – Building a fashion recommender using Tensorflow/Keras with ASOS.
+Building a recommender using Tensorflow/Keras.
 
-First we will build a recommender model together in Google Colab. Then we will deploy the model into production.
-
-Before the workshop you can open the notebook by visiting [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb) and clicking on 'File/Open Notebook'. In the orange window that opens click on "GitHub". Then in the 'Enter a GitHub URL or search by organization or user' line enter 'asos/dsf2020'. Finally click on "DSF-ASOS_Build_and_Deploy_a_Recommender_in_3_Hours.ipynb".
+First we built a recommender model in Google Colab. Then we deployed the model into production.
 
 ## A note about the data
 This repo contains four data files which will be used for training a recommender model. They contain product ids and fake user ids.
 
-## Serving a fashion recommender using Tensorflow serving
-
-#### About Tensorflow serving
-Tesnorflow serving is a flexible, high performance serving system for machine learning models.
-
-Tensorflow serving serves model without running original Python code.
-
-In order to serve a Tensorflow model, SavedModel is exported from a Python program.
-
-A SavedModel contains a complete TensorFlow program, including weights and a graph definitions.
-
-The recommended way of running Tensorflow serving is with Docker image.
+## Serving a recommender using Tensorflow serving
 
 ##### Environment setup
 - docker engine installed and running to run a serve
